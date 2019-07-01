@@ -1,0 +1,198 @@
+
+/* Class = "UIButton"; normalTitle = "Notifications"; ObjectID = "00o-9t-HT4"; */
+"00o-9t-HT4.normalTitle" = "Notifications";
+
+/* Class = "UIButton"; normalTitle = "A propos"; ObjectID = "28c-QP-i65"; */
+"28c-QP-i65.normalTitle" = "A propos";
+
+/* Class = "UITextField"; placeholder = "Mot de passe"; ObjectID = "2zX-yX-vWi"; */
+"2zX-yX-vWi.placeholder" = "Mot de passe";
+
+/* Class = "UIButton"; normalTitle = "S'inscrire"; ObjectID = "4Ts-ji-fgL"; */
+"4Ts-ji-fgL.normalTitle" = "S'inscrire";
+
+/* Class = "UILabel"; text = "Mohamed a commenté"; ObjectID = "58N-CZ-OuG"; */
+"58N-CZ-OuG.text" = "Mohamed a commenté";
+
+/* Class = "UILabel"; text = "Ou"; ObjectID = "757-08-TdO"; */
+"757-08-TdO.text" = "Ou";
+
+/* Class = "UILabel"; text = "Partager"; ObjectID = "7Uh-w8-q1o"; */
+"7Uh-w8-q1o.text" = "Partager";
+
+/* Class = "UILabel"; text = "Ajouter une photo"; ObjectID = "7e1-RN-UZu"; */
+"7e1-RN-UZu.text" = "Ajouter une photo";
+
+/* Class = "UIViewController"; title = "sign_upViewController"; ObjectID = "BYZ-38-t0r"; */
+"BYZ-38-t0r.title" = "sign_upViewController";
+
+/* Class = "UIViewController"; title = "initialViewController"; ObjectID = "CVQ-yv-tIe"; */
+"CVQ-yv-tIe.title" = "initialViewController";
+
+/* Class = "UILabel"; text = "Recommandés"; ObjectID = "CdZ-LJ-0zW"; */
+"CdZ-LJ-0zW.text" = "Recommandés";
+
+/* Class = "UITextField"; placeholder = "Titre"; ObjectID = "Cfu-f5-FI8"; */
+"Cfu-f5-FI8.placeholder" = "Titre";
+
+/* Class = "UIViewController"; title = "sign-inViewController"; ObjectID = "DcD-IC-IoK"; */
+"DcD-IC-IoK.title" = "sign-inViewController";
+
+/* Class = "UILabel"; text = "Ou"; ObjectID = "EZr-FI-Boy"; */
+"EZr-FI-Boy.text" = "Ou";
+
+/* Class = "UILabel"; text = "j'aime"; ObjectID = "H5i-JK-XSM"; */
+"H5i-JK-XSM.text" = "j'aime";
+
+/* Class = "UILabel"; text = "Sport"; ObjectID = "HT0-ym-mH6"; */
+"HT0-ym-mH6.text" = "Sport";
+
+/* Class = "UITabBarItem"; title = "DashBoard"; ObjectID = "I4w-eu-WNB"; */
+"I4w-eu-WNB.title" = "DashBoard";
+
+/* Class = "UILabel"; text = "Sahloul,Sousse"; ObjectID = "J9p-pv-dfL"; */
+"J9p-pv-dfL.text" = "Sahloul,Sousse";
+
+/* Class = "UITextField"; placeholder = "User Name"; ObjectID = "KpS-xA-nNY"; */
+"KpS-xA-nNY.placeholder" = "User Name";
+
+/* Class = "UITabBarItem"; title = "Home"; ObjectID = "KrY-gt-Jsi"; */
+"KrY-gt-Jsi.title" = "Home";
+
+/* Class = "UIButton"; normalTitle = "sign in"; ObjectID = "Ks1-rs-wbR"; */
+"Ks1-rs-wbR.normalTitle" = "sign in";
+
+/* Class = "UILabel"; text = "LastName"; ObjectID = "Kst-Jr-fIA"; */
+"Kst-Jr-fIA.text" = "LastName";
+
+/* Class = "UILabel"; text = "Filtres"; ObjectID = "Kwu-Or-dnO"; */
+"Kwu-Or-dnO.text" = "Filtres";
+
+/* Class = "UILabel"; text = "Comment vous sentez-vous"; ObjectID = "Kzj-Xy-kTv"; */
+"Kzj-Xy-kTv.text" = "Comment vous sentez-vous";
+
+/* Class = "UITextField"; placeholder = "Sousse"; ObjectID = "PwZ-B6-gNz"; */
+"PwZ-B6-gNz.placeholder" = "Sousse";
+
+/* Class = "UIButton"; normalTitle = "voir tout"; ObjectID = "RUN-Ds-aeS"; */
+"RUN-Ds-aeS.normalTitle" = "voir tout";
+
+/* Class = "UIButton"; normalTitle = "Languages"; ObjectID = "SfD-M2-V7w"; */
+"SfD-M2-V7w.normalTitle" = "Languages";
+
+/* Class = "UITextField"; text = "Catégories"; ObjectID = "Sme-fh-cNs"; */
+"Sme-fh-cNs.text" = "Catégories";
+
+/* Class = "UITextView"; text = "Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation "; ObjectID = "Tgp-ew-MrX"; */
+"Tgp-ew-MrX.text" = "Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ";
+
+/* Class = "UILabel"; text = "Ajout Plan"; ObjectID = "Trz-fV-s2j"; */
+"Trz-fV-s2j.text" = "Ajout Plan";
+
+/* Class = "UILabel"; text = "FirstName"; ObjectID = "WbH-df-hgg"; */
+"WbH-df-hgg.text" = "FirstName";
+
+/* Class = "UIButton"; normalTitle = "Feedback"; ObjectID = "Wy1-BV-jBR"; */
+"Wy1-BV-jBR.normalTitle" = "Feedback";
+
+/* Class = "UITextField"; placeholder = "Mot de passe"; ObjectID = "Xx2-gE-oAN"; */
+"Xx2-gE-oAN.placeholder" = "Mot de passe";
+
+/* Class = "UITabBarItem"; title = "Add Plan"; ObjectID = "Z1r-EB-EAe"; */
+"Z1r-EB-EAe.title" = "Add Plan";
+
+/* Class = "UILabel"; text = "Avis"; ObjectID = "ZLs-eM-G6q"; */
+"ZLs-eM-G6q.text" = "Avis";
+
+/* Class = "UIButton"; normalTitle = "Ajouter"; ObjectID = "Zsq-BR-m45"; */
+"Zsq-BR-m45.normalTitle" = "Ajouter";
+
+/* Class = "UIButton"; normalTitle = "Enregistrer"; ObjectID = "akX-uW-pNg"; */
+"akX-uW-pNg.normalTitle" = "Enregistrer";
+
+/* Class = "UITextField"; placeholder = "Catégories"; ObjectID = "bci-W1-TCq"; */
+"bci-W1-TCq.placeholder" = "Catégories";
+
+/* Class = "UITextField"; text = "Plan Title"; ObjectID = "bg2-A9-WO4"; */
+"bg2-A9-WO4.text" = "Plan Title";
+
+/* Class = "UILabel"; text = "il y a 2 minutes"; ObjectID = "cdx-It-KLj"; */
+"cdx-It-KLj.text" = "il y a 2 minutes";
+
+/* Class = "UILabel"; text = "Arabe"; ObjectID = "chL-0L-ZVh"; */
+"chL-0L-ZVh.text" = "Arabe";
+
+/* Class = "UITextField"; placeholder = "secret"; ObjectID = "coT-YP-NCY"; */
+"coT-YP-NCY.placeholder" = "secret";
+
+/* Class = "UITextField"; placeholder = "Localisation"; ObjectID = "cv4-Og-F3o"; */
+"cv4-Og-F3o.placeholder" = "Localisation";
+
+/* Class = "UILabel"; text = "Que pensez vous de ce plan ?"; ObjectID = "cwb-ko-XA3"; */
+"cwb-ko-XA3.text" = "Que pensez vous de ce plan ?";
+
+/* Class = "UILabel"; text = "Entrez votre email et nous vous envoyons"; ObjectID = "djO-GD-aua"; */
+"djO-GD-aua.text" = "Entrez votre email et nous vous envoyons";
+
+/* Class = "UIButton"; normalTitle = "Envoyer"; ObjectID = "ePc-Z8-Bnb"; */
+"ePc-Z8-Bnb.normalTitle" = "Envoyer";
+
+/* Class = "UILabel"; text = "Vous n'avez sélectionné aucun favori !!"; ObjectID = "esi-BS-gP4"; */
+"esi-BS-gP4.text" = "Vous n'avez sélectionné aucun favori !!";
+
+/* Class = "UITextField"; placeholder = "Rechercher"; ObjectID = "fC3-Z5-gix"; */
+"fC3-Z5-gix.placeholder" = "Rechercher";
+
+/* Class = "UIButton"; normalTitle = "sign up"; ObjectID = "gEA-3s-zgb"; */
+"gEA-3s-zgb.normalTitle" = "sign up";
+
+/* Class = "UIButton"; normalTitle = "Mot de passe oublié ?"; ObjectID = "i0m-5d-vNg"; */
+"i0m-5d-vNg.normalTitle" = "Mot de passe oublié ?";
+
+/* Class = "UILabel"; text = "Email"; ObjectID = "jZf-4d-F3w"; */
+"jZf-4d-F3w.text" = "Email";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "lHh-mV-reL"; */
+"lHh-mV-reL.text" = "Label";
+
+/* Class = "UILabel"; text = "Commenter"; ObjectID = "lN4-7E-tUv"; */
+"lN4-7E-tUv.text" = "Commenter";
+
+/* Class = "UILabel"; text = "Rating"; ObjectID = "naO-RN-jEH"; */
+"naO-RN-jEH.text" = "Rating";
+
+/* Class = "UILabel"; text = " un nouveau mot de passe ."; ObjectID = "nqu-Zw-qn3"; */
+"nqu-Zw-qn3.text" = " un nouveau mot de passe .";
+
+/* Class = "UILabel"; text = "Anglais"; ObjectID = "o4h-rv-D44"; */
+"o4h-rv-D44.text" = "Anglais";
+
+/* Class = "UIViewController"; title = "resendMailViewController"; ObjectID = "oCW-fl-YKK"; */
+"oCW-fl-YKK.title" = "resendMailViewController";
+
+/* Class = "UILabel"; text = "à propos de Planify"; ObjectID = "oS6-aH-IV6"; */
+"oS6-aH-IV6.text" = "à propos de Planify";
+
+/* Class = "UITextField"; text = "Welcome"; ObjectID = "oUk-hU-lVD"; */
+"oUk-hU-lVD.text" = "Welcome";
+
+/* Class = "UILabel"; text = "Français"; ObjectID = "oqw-64-Mql"; */
+"oqw-64-Mql.text" = "Français";
+
+/* Class = "UIButton"; normalTitle = "Inscription"; ObjectID = "pO6-m4-Je4"; */
+"pO6-m4-Je4.normalTitle" = "Inscription";
+
+/* Class = "UIButton"; normalTitle = "Connexion"; ObjectID = "r9y-7f-lS4"; */
+"r9y-7f-lS4.normalTitle" = "Connexion";
+
+/* Class = "UITabBarItem"; title = "Item 1"; ObjectID = "rh0-SN-KZb"; */
+"rh0-SN-KZb.title" = "Item 1";
+
+/* Class = "UILabel"; text = "2.8K"; ObjectID = "rtX-1J-u4W"; */
+"rtX-1J-u4W.text" = "2.8K";
+
+/* Class = "UIButton"; normalTitle = "envoyer"; ObjectID = "tvW-Am-any"; */
+"tvW-Am-any.normalTitle" = "envoyer";
+
+/* Class = "UITextField"; text = "resto"; ObjectID = "vON-Qb-zkW"; */
+"vON-Qb-zkW.text" = "resto";
