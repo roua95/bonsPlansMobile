@@ -7,3 +7,13 @@
 //
 
 import Foundation
+import UIKit
+class Categorie{
+    
+    var id:Int
+    var nom:String
+    init(id:Int,nom:String) {
+        self.id = id
+        self.nom = nom
+    }
+}

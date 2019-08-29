@@ -1,21 +1,94 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13142" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12042"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14283.14"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
-        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="RecommandedPlanCell" customModuleProvider="target">
-            <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="RecommandedPlanCell" customModule="BonPlan" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="222" height="114"/>
             <autoresizingMask key="autoresizingMask"/>
             <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
-                <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
-                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                <rect key="frame" x="0.0" y="0.0" width="222" height="114"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="2.8 K" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ohe-Te-VKB">
+                        <rect key="frame" x="20" y="97" width="29" height="17"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Category" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SPO-xr-max">
+                        <rect key="frame" x="52" y="99" width="41" height="15"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="9"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="resto" translatesAutoresizingMaskIntoConstraints="NO" id="UcQ-9n-FId" customClass="UIImageViewX" customModule="BonPlan" customModuleProvider="target">
+                        <rect key="frame" x="101" y="101" width="21" height="13"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EYg-Zh-0fB">
+                        <rect key="frame" x="11" y="59" width="42" height="20.5"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oGH-Pu-QOd" customClass="UIButtonX" customModule="BonPlan" customModuleProvider="target">
+                        <rect key="frame" x="2" y="96" width="17" height="15"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <state key="normal" image="like"/>
+                        <connections>
+                            <action selector="likeAction:" destination="gTV-IL-0wX" eventType="touchUpInside" id="lcQ-R7-JjS"/>
+                        </connections>
+                    </button>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Alm-76-Ybf">
+                        <rect key="frame" x="0.0" y="0.0" width="222" height="94"/>
+                    </imageView>
+                    <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="0wy-V3-JxL" customClass="CosmosView" customModule="Cosmos">
+                        <rect key="frame" x="127" y="98" width="95" height="12"/>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="starSize">
+                                <real key="value" value="15"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                </subviews>
             </view>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="0wy-V3-JxL" secondAttribute="trailing" id="5Aa-UK-iBU"/>
+                <constraint firstAttribute="trailing" secondItem="Alm-76-Ybf" secondAttribute="trailing" id="LRV-aS-av4"/>
+                <constraint firstItem="EYg-Zh-0fB" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="11" id="LXi-dh-3oi"/>
+                <constraint firstAttribute="bottom" secondItem="Alm-76-Ybf" secondAttribute="bottom" constant="20" id="M9d-Ul-nu2"/>
+                <constraint firstItem="Alm-76-Ybf" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="VNy-gn-jb5"/>
+                <constraint firstAttribute="trailing" secondItem="EYg-Zh-0fB" secondAttribute="trailing" constant="169" id="bBw-ya-w8L"/>
+                <constraint firstAttribute="bottom" secondItem="0wy-V3-JxL" secondAttribute="bottom" id="gR3-LN-mw9"/>
+                <constraint firstItem="EYg-Zh-0fB" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="59" id="uKp-hQ-5Mj"/>
+                <constraint firstItem="Alm-76-Ybf" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="yCW-Nb-VdW"/>
+            </constraints>
             <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <size key="customSize" width="198" height="135"/>
+            <connections>
+                <outlet property="categoryImage" destination="UcQ-9n-FId" id="KOe-cS-BrE"/>
+                <outlet property="categoryLabel" destination="SPO-xr-max" id="uG9-Kt-Rgs"/>
+                <outlet property="imagePlan" destination="Alm-76-Ybf" id="CVF-8E-8J8"/>
+                <outlet property="likeBtn" destination="oGH-Pu-QOd" id="ZCo-Sn-ERM"/>
+                <outlet property="likesNbr" destination="ohe-Te-VKB" id="2gv-ci-YEI"/>
+                <outlet property="planTitle" destination="EYg-Zh-0fB" id="KDd-92-YUe"/>
+            </connections>
+            <point key="canvasLocation" x="-145.59999999999999" y="131.33433283358323"/>
         </collectionViewCell>
     </objects>
+    <resources>
+        <image name="like" width="18" height="23"/>
+        <image name="resto" width="43" height="41"/>
+    </resources>
 </document>

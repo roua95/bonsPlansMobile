@@ -11,7 +11,7 @@ import GoogleMaps
 
 class GoogleMapsLocalisationTableViewCell: UITableViewCell {
 
-    @IBOutlet weak var mapView: GMSMapView!
+   // @IBOutlet weak var mapView: GMSMapView!
     
     override func awakeFromNib() {
         super.awakeFromNib()

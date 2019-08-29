@@ -9,5 +9,8 @@
 import UIKit
 
 class recommendedPlansCollectionViewCell: UICollectionViewCell {
-    
+  
+   
+   
 }
+///imagePlan   planTitle

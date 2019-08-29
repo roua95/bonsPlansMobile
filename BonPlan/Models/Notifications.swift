@@ -7,3 +7,18 @@
 //
 
 import Foundation
+import UIKit
+class Notifications{
+    
+    var id:Int
+    var nomUser:String
+    var date:String
+    var description:String
+
+    init(id:Int,nomUser:String,date:String,description:String) {
+        self.id = id
+        self.nomUser = nomUser
+        self.date = date
+        self.description = description
+}
+}

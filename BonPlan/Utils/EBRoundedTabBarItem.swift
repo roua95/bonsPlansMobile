@@ -18,13 +18,24 @@ enum EBRoundedTabBarItem {
         
         return false
     }
+    /* var whichItem: String {
+        if (case self = EBRoundedTabBarItem.firstItem)
+        {return "Home"}
+        
+        if (case self = EBRoundedTabBarItem.firstItem)
+        {return "Home"}
+        if (case self = EBRoundedTabBarItem.firstItem)
+        {return "Home"}
+        if (case self = EBRoundedTabBarItem.firstItem)
+        {return "Home"
+    }
+}*/
 }
-
 extension EBRoundedTabBarItem {
     
     var title: String {
         if isRoundedItem {
-            return ""
+            return "Add Plan"
         }
         
         return "Custom"
@@ -51,10 +62,11 @@ extension EBRoundedTabBarItem {
     
     var image: UIImage? {
         if isRoundedItem {
-            return nil
+            return UIImage(named: "cercleInsider")
         }
         
-        return #imageLiteral(resourceName: "filled-circle.pdf")
+      //  return #imageLiteral(resourceName: "filled-circle.pdf")
+        return nil
     }
     
     var tabBarItem: UITabBarItem {

@@ -7,7 +7,7 @@
 //
 
 import UIKit
-
+import GoogleMaps
 class GoogleMapTableViewCell: UITableViewCell {
 
     override func awakeFromNib() {
@@ -15,6 +15,8 @@ class GoogleMapTableViewCell: UITableViewCell {
         // Initialization code
     }
 
+    @IBOutlet weak var mapView: GMSMapView!
+    
     override func setSelected(_ selected: Bool, animated: Bool) {
         super.setSelected(selected, animated: animated)
 

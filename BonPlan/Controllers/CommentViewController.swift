@@ -10,6 +10,9 @@ import UIKit
 
 class CommentViewController: UIViewController {
 
+    @IBOutlet weak var chienImage: UIImageView!
+    @IBOutlet weak var comment: UILabel!
+    @IBOutlet weak var commentTextField: SkyFloatingLabelTextField!
     override func viewDidLoad() {
         super.viewDidLoad()
 

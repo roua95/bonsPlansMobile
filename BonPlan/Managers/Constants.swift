@@ -13,10 +13,11 @@ class Constants: NSObject {
     // Webservices
 
     static let baseURL = "http://127.0.0.1:8000/"
+    //static let baseURL = "http://preprodbonplan.diginov.tech"
     static let apiURL = baseURL + "api/"
     static let apiAuthURL = apiURL + "login"
     static let expertise = "expertise"
-    static let register = "auth/register"
+    static let register = "register"
     static let registerfacebook = "auth/registerfacebook"
     static let registergoogle = "auth/registergoogle"
     static let country = "country"
@@ -24,7 +25,10 @@ class Constants: NSObject {
     static let logingoogle = "auth/logingoogle"
     static let login = "login"
     static let inspirations = "inspirations"
-    
+    static let category = "category"
+    static let plan = "plan"
+    static let comment = "comment"
+    static let image = "image"
 
     // Status codes
     static let success = "Success"

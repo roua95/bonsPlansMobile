@@ -34,7 +34,7 @@ class initialViewController: UIViewController {
     
     
     @IBAction func signin(_ sender: Any) {
-        let vc = self.storyboard?.instantiateViewController(withIdentifier: "sign_inViewController"
+        let vc = self.storyboard?.instantiateViewController(withIdentifier: "sign-inViewController"
             ) as! sign_inViewController
         self.navigationController?.pushViewController(vc, animated: true)
     

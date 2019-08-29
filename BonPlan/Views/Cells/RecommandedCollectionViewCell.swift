@@ -10,12 +10,14 @@ import UIKit
 
 class RecommandedCollectionViewCell: UICollectionViewCell {
     
-
-    @IBOutlet weak var planTitle: UITextFieldX!
+    @IBOutlet weak var planTitle: UILabel!
     
-    @IBOutlet weak var recommandedPlanImage: UIImageViewX!
     func displayContent(image: UIImage, title: String) {
         recommandedPlanImage.image = image
         planTitle.text = title
     }
+    override func awakeFromNib() {
+        super.awakeFromNib()
+    }
 }
+//planTitle  recommandedPlanImage

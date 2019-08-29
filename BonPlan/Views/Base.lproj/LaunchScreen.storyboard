@@ -17,21 +17,33 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="hello people" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="anT-5g-a2N">
-                                <rect key="frame" x="0.0" y="202" width="375" height="30"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="background" translatesAutoresizingMaskIntoConstraints="NO" id="eMA-fX-uCr">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Planify" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HrJ-Kb-6CV">
+                                <rect key="frame" x="110" y="350.5" width="155" height="63.5"/>
+                                <fontDescription key="fontDescription" name="SnellRoundhand-Bold" family="Snell Roundhand" pointSize="50"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="nDF-gB-U45">
+                                <rect key="frame" x="132" y="247" width="111" height="105"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="30" id="mEs-ZE-mWs"/>
+                                    <constraint firstAttribute="height" constant="105" id="eBQ-Hm-gHd"/>
+                                    <constraint firstAttribute="width" constant="111" id="fgh-ln-qws"/>
                                 </constraints>
-                                <color key="textColor" red="0.76862745099999996" green="0.20392156859999999" blue="0.33725490200000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="anT-5g-a2N" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="3Sz-xq-dJD"/>
-                            <constraint firstAttribute="trailing" secondItem="anT-5g-a2N" secondAttribute="trailing" id="Jf6-PA-Fbn"/>
-                            <constraint firstItem="anT-5g-a2N" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="182" id="XrY-Nh-s7z"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="eMA-fX-uCr" secondAttribute="trailing" id="KOx-W9-8lq"/>
+                            <constraint firstAttribute="baseline" secondItem="eMA-fX-uCr" secondAttribute="bottom" id="Xvf-PQ-Jph"/>
+                            <constraint firstItem="eMA-fX-uCr" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="YZO-tG-Etl"/>
+                            <constraint firstItem="HrJ-Kb-6CV" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="bA3-Mn-v2y"/>
+                            <constraint firstItem="eMA-fX-uCr" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="firstBaseline" id="ciF-TI-NH9"/>
+                            <constraint firstItem="nDF-gB-U45" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="gFS-WX-zyU"/>
+                            <constraint firstItem="HrJ-Kb-6CV" firstAttribute="top" secondItem="nDF-gB-U45" secondAttribute="bottom" constant="-1.5" id="ndS-Ka-5qS"/>
+                            <constraint firstItem="nDF-gB-U45" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" constant="-34" id="sUn-yz-5ag"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
@@ -41,4 +53,8 @@
             <point key="canvasLocation" x="52" y="374.66266866566718"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="background" width="375" height="667"/>
+        <image name="logo" width="86" height="82"/>
+    </resources>
 </document>

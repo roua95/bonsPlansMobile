@@ -94,7 +94,7 @@ open class SkyFloatingLabelTextFieldWithIcon: SkyFloatingLabelTextField {
 
     /// A float value that determines the width of the icon
     @IBInspectable
-    dynamic open var iconWidth: CGFloat = 20 {
+    dynamic open var iconWidth: CGFloat = 17 {
         didSet {
             updateFrame()
         }
@@ -105,7 +105,7 @@ open class SkyFloatingLabelTextFieldWithIcon: SkyFloatingLabelTextField {
      Use this value to position the icon more precisely horizontally.
      */
     @IBInspectable
-    dynamic open var iconMarginLeft: CGFloat = 4 {
+    dynamic open var iconMarginLeft: CGFloat = 10 {
         didSet {
             updateFrame()
         }
@@ -116,7 +116,7 @@ open class SkyFloatingLabelTextFieldWithIcon: SkyFloatingLabelTextField {
      Use this value to position the icon more precisely vertically.
      */
     @IBInspectable
-    dynamic open var iconMarginBottom: CGFloat = 4 {
+    dynamic open var iconMarginBottom: CGFloat = 2 {
         didSet {
             updateFrame()
         }
@@ -242,11 +242,11 @@ open class SkyFloatingLabelTextFieldWithIcon: SkyFloatingLabelTextField {
     override open func textRect(forBounds bounds: CGRect) -> CGRect {
         var rect = super.textRect(forBounds: bounds)
         if isLTRLanguage {
-            rect.origin.x += CGFloat(iconWidth + iconMarginLeft)
+            rect.origin.x += CGFloat(iconWidth + iconMarginLeft + 10)
         } else {
-            rect.origin.x -= CGFloat(iconWidth + iconMarginLeft)
+            rect.origin.x -= CGFloat(iconWidth + iconMarginLeft + 10)
         }
-        rect.size.width -= CGFloat(iconWidth + iconMarginLeft)
+        rect.size.width -= CGFloat(iconWidth + iconMarginLeft + 10)
         return rect
     }
 
@@ -258,11 +258,11 @@ open class SkyFloatingLabelTextFieldWithIcon: SkyFloatingLabelTextField {
     override open func editingRect(forBounds bounds: CGRect) -> CGRect {
         var rect = super.editingRect(forBounds: bounds)
         if isLTRLanguage {
-            rect.origin.x += CGFloat(iconWidth + iconMarginLeft)
+            rect.origin.x += CGFloat(iconWidth + iconMarginLeft + 10)
         } else {
             // don't change the editing field X position for RTL languages
         }
-        rect.size.width -= CGFloat(iconWidth + iconMarginLeft)
+        rect.size.width -= CGFloat(iconWidth + iconMarginLeft + 10)
         return rect
     }
 
@@ -275,11 +275,11 @@ open class SkyFloatingLabelTextFieldWithIcon: SkyFloatingLabelTextField {
     override open func placeholderRect(forBounds bounds: CGRect) -> CGRect {
         var rect = super.placeholderRect(forBounds: bounds)
         if isLTRLanguage {
-            rect.origin.x += CGFloat(iconWidth + iconMarginLeft)
+            rect.origin.x += CGFloat(iconWidth + iconMarginLeft + 10)
         } else {
             // don't change the editing field X position for RTL languages
         }
-        rect.size.width -= CGFloat(iconWidth + iconMarginLeft)
+        rect.size.width -= CGFloat(iconWidth + iconMarginLeft + 10)
         return rect
     }
 

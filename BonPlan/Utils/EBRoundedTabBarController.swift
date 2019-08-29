@@ -69,7 +69,7 @@ class EBRoundedTabBarController: UITabBarController {
     // MARK: - Actions
     
     @objc private func actionButtonTapped(sender: UIButton) {
-        let customViewController = CustomViewController()
+        let customViewController = AjoutPlanViewController()
         let navigationController = UINavigationController(rootViewController: customViewController)
         
         present(navigationController, animated: true) {
